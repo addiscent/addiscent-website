@@ -1,1 +1,88 @@
 /* add project custom css here */
+
+body {
+  background: #d8e0f0;
+}
+
+.header-section {
+  background: url("../assets/addiscent-tall.jpg") no-repeat center center;
+  height: auto;
+  padding-top: 400px;
+  padding-bottom: 500px;
+  text-align: center;
+}
+
+.services-section {
+  height: auto;
+  padding-top: 150px;
+  text-align: center;
+}
+
+.tools-section {
+  height: auto;
+  padding-top: 150px;
+  text-align: center;
+}
+
+.websites-section {
+  height: auto;
+  padding-top: 150px;
+  text-align: center;
+}
+
+.contact-section {
+  height: auto;
+  padding-top: 150px;
+  padding-bottom: 450px;
+  text-align: center;
+}
+
+div.ss-box {
+  background: #c8d0e0;
+  border: 1px solid #ccc;
+  width: 90%;
+  margin: 0 auto;
+}
+
+img.ss {
+  width: 90%;
+}
+
+h1.header-title {
+  font-size: 400%;
+  color: #ddd;
+}
+
+h3.header-title {
+  color: #ddd;
+}
+
+h5.header-title {
+  color: #ddd;
+}
+
+a {
+  color: #108090;
+}
+
+a:visited {
+  color: gray;
+}
+
+a:hover {
+  color: #108090;
+}
+
+p {
+  font-size: 150%;
+  text-align: left;
+}
+
+p.aligncenter {
+  text-align: center;
+}
+
+footer {
+  padding: 2px;
+  background: $brand-primary;
+}

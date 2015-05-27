@@ -1,0 +1,52 @@
+!!!
+%html{:lang => "en"}
+  %head
+    %meta{:content => "text/html; charset=UTF-8", "http-equiv" => "Content-Type"}/
+    %meta{:charset => "utf-8"}/
+    %meta{:content => "IE=edge", "http-equiv" => "X-UA-Compatible"}/
+    %meta{:content => "width=device-width, initial-scale=1", :name => "viewport"}/
+    %meta{:content => "", :name => "description"}/
+    %meta{:content => "", :name => "author"}/
+    %title
+    = stylesheet_link_tag    'application', media: 'all'
+    = javascript_include_tag 'application'
+    = csrf_meta_tags
+    / HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries
+    / WARNING: Respond.js doesn't work if you view the page via file://
+    /[if lt IE 9]
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+  / The #page-top ID is part of the scrolling feature - the data-spy and data-target are part of the built-in Bootstrap scrollspy function
+  %body#page-top{"data-spy" => "scroll", "data-target" => ".navbar-fixed-top"}
+    / Navigation
+    %nav.navbar.navbar-default.navbar-fixed-top{:role => "navigation"}
+      .container
+        .navbar-header.page-scroll
+          %button.navbar-toggle{"data-target" => ".navbar-ex1-collapse", "data-toggle" => "collapse", :type => "button"}
+            %span.sr-only Toggle navigation
+            %span.icon-bar
+            %span.icon-bar
+            %span.icon-bar
+          %a.navbar-brand.page-scroll{:href => "#page-top"} Addiscent
+        / Collect the nav links, forms, and other content for toggling
+        .collapse.navbar-collapse.navbar-ex1-collapse
+          %ul.nav.navbar-nav
+            / Hidden li included to remove active class from about link when scrolled up past about section
+            %li.hidden
+              %a.page-scroll{:href => "#page-top"}
+            %li
+              %a.page-scroll{:href => "#services"} Services
+            %li
+              %a.page-scroll{:href => "#tools"} Tools
+            %li
+              %a.page-scroll{:href => "#websites"} Websites
+            %li
+              %a.page-scroll{:href => "#contact"} Contact
+
+        / /.navbar-collapse
+      / /.container
+    = yield
+
+    %footer
+      %p
+      %p{:style => "text-align: center; font-size : 100%; color: white;"} © 2015 Addiscent

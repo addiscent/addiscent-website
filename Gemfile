@@ -9,6 +9,8 @@ gem 'uglifier', '>= 1.3.0'
 gem 'coffee-rails', '~> 4.1.0'
 gem 'jquery-rails'
 gem 'high_voltage', '~> 2.2.1'
+gem 'haml', '~>4.0.6'
+gem 'html2haml', '~> 2.0.0'
 
 group :development, :production do
   gem 'thin', :group => 'production'
