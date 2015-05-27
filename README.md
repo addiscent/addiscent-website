@@ -1,8 +1,12 @@
 ## addiscent-website : A Semi-Static Rails-based Web Site
 
-####_The contents of this repository is not intended for public consumption_
+####_Though you are free to inspect it, the contents of this repository is not intended for public consumption_
 
-This web site is *UNDER CONSTRUCTION* and will be broken most of the time.
+This website is based on a clone of the _addiscent/place-setting_ GitHub project,
+
+  https://github.com/addiscent/place-setting
+
+This web site is *UNDER CONSTRUCTION* and may be broken at times.
 
 If you have questions, you may contact Rex Addiscentis, raddiscentis@addiscent.com
 
