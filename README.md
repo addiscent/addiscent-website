@@ -10,4 +10,4 @@ This web site is *UNDER CONSTRUCTION* and may be broken at times.
 
 If you have questions, you may contact Rex Addiscentis, raddiscentis@addiscent.com
 
-2015 Copyright CK Thomaston, all rights reserved
+2016 Copyright Rex Addiscentis, all rights reserved
