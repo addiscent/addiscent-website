@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-ruby '2.2.0'
+ruby '2.3.1'
 
 gem 'rails', '4.2.1'
 gem 'bootstrap-sass', '~> 3.3.4'
@@ -11,6 +11,8 @@ gem 'jquery-rails'
 gem 'high_voltage', '~> 2.2.1'
 gem 'haml', '~>4.0.6'
 gem 'html2haml', '~> 2.0.0'
+gem 'capistrano-rails'
+gem 'capistrano-passenger'
 
 group :development, :production do
   gem 'thin', :group => 'production'
