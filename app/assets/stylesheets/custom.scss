@@ -5,7 +5,8 @@ body {
 }
 
 .header-section {
-  background: url("../assets/addiscent-tall.jpg") no-repeat center center;
+/*  background: url("../assets/addiscent-tall.jpg") no-repeat center center; */
+  background-image: image-url("addiscent-tall.jpg") no-repeat center center;
   height: auto;
   padding-top: 300px;
   padding-bottom: 500px;
